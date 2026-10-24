@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nardos-sedjro-monel-houehou.github.io/sitemap.xml

@@ -3,27 +3,44 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nardos Sedjro Monel Houehou - Full-Stack Developer</title>
-<meta name="description" content="Nardos Sedjro Monel Houehou is a full-stack developer building custom business software, automation and AI integrations with Laravel, PHP, Next.js and TypeScript. Canada.">
+<title>Nardos Sedjro Monel Houehou - Full-Stack Developer (Laravel, Next.js)</title>
+<meta name="description" content="Nardos Sedjro Monel Houehou (Houehou Sedjro Nardos Monel) is a full-stack developer in Canada building custom business software, websites, automation and AI integrations with Laravel, PHP, Next.js and TypeScript.">
+<meta name="author" content="Nardos Sedjro Monel Houehou">
 <link rel="canonical" href="https://nardos-sedjro-monel-houehou.github.io/">
+<link rel="alternate" hreflang="en" href="https://nardos-sedjro-monel-houehou.github.io/">
+<link rel="alternate" hreflang="fr" href="https://nardos-sedjro-monel-houehou.github.io/fr/">
+<link rel="alternate" hreflang="x-default" href="https://nardos-sedjro-monel-houehou.github.io/">
 <meta property="og:title" content="Nardos Sedjro Monel Houehou - Full-Stack Developer">
-<meta property="og:description" content="Custom business software, automation and AI integration. Laravel, PHP, Next.js, TypeScript.">
+<meta property="og:description" content="Custom business software, websites, automation and AI integration. Laravel, PHP, Next.js, TypeScript.">
 <meta property="og:type" content="profile">
 <meta property="og:url" content="https://nardos-sedjro-monel-houehou.github.io/">
+<meta property="og:locale" content="en_CA">
+<meta property="og:locale:alternate" content="fr_CA">
+<meta property="profile:first_name" content="Nardos">
+<meta property="profile:last_name" content="Houehou">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Nardos Sedjro Monel Houehou",
-  "alternateName": ["Nardos Houehou", "Houehou Sedjro Nardos Monel"],
-  "jobTitle": "Full-Stack Developer",
+  "@type": "ProfilePage",
   "url": "https://nardos-sedjro-monel-houehou.github.io/",
-  "address": { "@type": "PostalAddress", "addressCountry": "CA" },
-  "knowsLanguage": ["fr", "en"],
-  "sameAs": [
-    "https://github.com/nardos-sedjro-monel-houehou",
-    "https://www.linkedin.com/in/sedjro-nardos-monel-houehou-716a7213b"
-  ]
+  "inLanguage": "en",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://nardos-sedjro-monel-houehou.github.io/#person",
+    "name": "Nardos Sedjro Monel Houehou",
+    "givenName": "Nardos Sedjro Monel",
+    "familyName": "Houehou",
+    "alternateName": ["Houehou Sedjro Nardos Monel", "Sedjro Nardos Monel Houehou", "Nardos Houehou", "Monel Houehou", "Sedjro Houehou"],
+    "jobTitle": "Full-Stack Developer",
+    "url": "https://nardos-sedjro-monel-houehou.github.io/",
+    "address": { "@type": "PostalAddress", "addressCountry": "CA" },
+    "knowsLanguage": ["fr", "en"],
+    "knowsAbout": ["Laravel", "PHP", "Next.js", "TypeScript", "JavaScript", "REST API", "Business automation", "AI integration", "Web development"],
+    "sameAs": [
+      "https://github.com/nardos-sedjro-monel-houehou",
+      "https://www.linkedin.com/in/sedjro-nardos-monel-houehou-716a7213b"
+    ]
+  }
 }
 </script>
 <style>
@@ -36,19 +53,26 @@
   .skip { position:absolute; left:-999px; }
   .skip:focus { left:12px; top:12px; background:var(--bg); padding:6px 10px; }
   header, main, footer { max-width: 720px; margin: 0 auto; padding: 0 20px; }
-  header { display:flex; justify-content:space-between; align-items:center; padding-top:24px; padding-bottom:12px; border-bottom:1px solid var(--line); }
+  header { display:flex; flex-wrap:wrap; gap:8px; justify-content:space-between; align-items:center; padding-top:24px; padding-bottom:12px; border-bottom:1px solid var(--line); }
   header .name { font-weight:600; }
-  nav a { margin-left:18px; text-decoration:none; color:var(--accent); }
+  nav { display:flex; flex-wrap:wrap; gap:4px 16px; }
+  nav a { text-decoration:none; color:var(--accent); }
   h1 { font-size:1.9rem; line-height:1.25; margin:40px 0 12px; }
-  h2 { font-size:1.2rem; margin:40px 0 10px; padding-bottom:6px; border-bottom:1px solid var(--line); }
+  h2 { font-size:1.2rem; margin:44px 0 10px; padding-bottom:6px; border-bottom:1px solid var(--line); }
   .hello { color:var(--muted); margin:36px 0 0; }
   .tags { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:8px; margin:16px 0 0; }
   .tags li { background:var(--tag); padding:3px 10px; border-radius:999px; font-size:.9rem; }
   a { color:var(--accent); }
-  .project { margin:0 0 18px; }
+  .project { margin:0 0 20px; }
   .project h3 { margin:0 0 2px; font-size:1.05rem; }
   .project p { margin:0; color:var(--muted); }
-  footer { padding-top:28px; padding-bottom:48px; margin-top:40px; border-top:1px solid var(--line); color:var(--muted); font-size:.95rem; }
+  .project .stack { font-size:.88rem; margin-top:4px; }
+  ul.plain { padding-left:20px; margin:8px 0 0; }
+  ul.plain li { margin:4px 0; }
+  .steps { counter-reset:s; list-style:none; padding:0; margin:10px 0 0; }
+  .steps li { counter-increment:s; margin:0 0 10px; padding-left:34px; position:relative; }
+  .steps li::before { content:counter(s); position:absolute; left:0; top:1px; width:24px; height:24px; border-radius:50%; background:var(--tag); color:var(--accent); font-weight:600; font-size:.85rem; display:flex; align-items:center; justify-content:center; }
+  footer { padding-top:28px; padding-bottom:48px; margin-top:44px; border-top:1px solid var(--line); color:var(--muted); font-size:.95rem; }
   footer a { margin-right:16px; }
 </style>
 </head>
@@ -57,40 +81,68 @@
 <header>
   <span class="name">Nardos Sedjro Monel Houehou</span>
   <nav aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
+    <a href="/fr/" hreflang="fr" lang="fr">FR</a>
   </nav>
 </header>
 
 <main id="content">
   <p class="hello">Hey, I'm Nardos.</p>
   <h1>Full-stack developer building custom business software, automation and AI integrations.</h1>
-  <p>I turn business problems into working software, from analysis to deployment. I work in French and English.</p>
+  <p>I turn business problems into working software, from analysis to deployment. I work in French and English, based in Canada.</p>
   <ul class="tags" aria-label="Main technologies">
     <li>Laravel &amp; PHP</li>
     <li>Next.js &amp; TypeScript</li>
+    <li>JavaScript</li>
     <li>REST APIs</li>
     <li>Automation &amp; AI</li>
   </ul>
+
+  <h2 id="about">About Nardos Sedjro Monel Houehou</h2>
+  <p>My name is Nardos Sedjro Monel Houehou (written <strong>Houehou Sedjro Nardos Monel</strong> in official documents, family name first). Most people call me Nardos.</p>
+  <p>I'm a full-stack web and application developer. I like the whole chain: understanding how a business really works, designing the data model, building the back end and the interface, then shipping it and making sure the people who use it every day are comfortable with it.</p>
+  <p>My main tools are Laravel and PHP on the server side, and Next.js, TypeScript and JavaScript on the front end. More and more of my work involves automation and AI: connecting tools together, removing repetitive tasks and adding smart features to existing software.</p>
+
+  <h2 id="services">What I build</h2>
+  <ul class="plain">
+    <li><strong>Custom business software</strong> — management tools, client portals and dashboards built around how a team actually works.</li>
+    <li><strong>Websites for small businesses</strong> — fast, mobile-first sites with online booking and contact forms.</li>
+    <li><strong>REST APIs and integrations</strong> — connecting a website or app to payment, calendar, email and other services.</li>
+    <li><strong>Automation &amp; AI</strong> — workflows that save hours every week, and AI features inside existing tools.</li>
+  </ul>
+
+  <h2 id="method">How I work</h2>
+  <ol class="steps">
+    <li><strong>Understand</strong> — the business, its customers and its constraints, before writing any code.</li>
+    <li><strong>Build</strong> — clean, documented code, with regular demos so there are no surprises.</li>
+    <li><strong>Hand over</strong> — deployment, short training and documentation so the client stays independent.</li>
+  </ol>
 
   <h2 id="projects">Projects</h2>
   <div class="project">
     <h3><a href="https://github.com/nardos-sedjro-monel-houehou/Restau">Restau</a></h3>
     <p>Restaurant management system: orders, menu, reservations and stock tracking.</p>
+    <p class="stack">Source code on GitHub</p>
   </div>
   <div class="project">
     <h3><a href="https://github.com/nardos-sedjro-monel-houehou/Meteo_js">Meteo_js</a></h3>
-    <p>Weather app in JavaScript.</p>
+    <p>Weather app in JavaScript using a public weather API.</p>
+    <p class="stack">JavaScript · REST API</p>
   </div>
+  <p>More projects on <a href="https://github.com/nardos-sedjro-monel-houehou">my GitHub profile</a>.</p>
 
   <h2 id="contact">Contact</h2>
-  <p>Say hello on <a href="https://www.linkedin.com/in/sedjro-nardos-monel-houehou-716a7213b">LinkedIn</a>.</p>
+  <p>Have a project or a position to discuss? Say hello on <a href="https://www.linkedin.com/in/sedjro-nardos-monel-houehou-716a7213b">LinkedIn</a> or through <a href="https://github.com/nardos-sedjro-monel-houehou">GitHub</a>.</p>
 </main>
 
 <footer>
-  <span>Nardos Sedjro Monel Houehou</span><br>
+  <span>© Nardos Sedjro Monel Houehou — Full-stack developer, Canada</span><br>
   <a href="https://github.com/nardos-sedjro-monel-houehou">GitHub</a>
   <a href="https://www.linkedin.com/in/sedjro-nardos-monel-houehou-716a7213b">LinkedIn</a>
+  <a href="/fr/" hreflang="fr" lang="fr">Version française</a>
 </footer>
 </body>
 </html>
